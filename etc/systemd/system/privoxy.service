@@ -13,7 +13,7 @@ ExecStart=/usr/bin/docker run -d --restart always \
 		  --link torproxy:torproxy \
 		  -p 8118:8118 \
 		  --name privoxy \
-		  jess/privoxy
+		  schecbr/privoxy
 ExecStartPost=-/bin/bash -c "hostess add privoxy $(docker inspect --format \"{{.NetworkSettings.Networks.bridge.IPAddress}}\" privoxy)"
 
 [Install]

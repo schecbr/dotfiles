@@ -12,7 +12,7 @@ ExecStart=/usr/bin/docker run --rm \
 		  --cap-add NET_ADMIN \
 		  --privileged \
 		  --name shorewall \
-		  jess/shorewall start
+		  schecbr/shorewall start
 
 [Install]
 WantedBy=multi-user.target

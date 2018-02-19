@@ -4,7 +4,7 @@ PartOf=openvpn.service
 ReloadPropagatedFrom=openvpn.service
 
 [Service]
-Environment=HOME=/home/jessie
+Environment=HOME=/home/schecbr
 Environment=DISPLAY=:0
 Type=forking
 # Start OpenVPN
