@@ -36,10 +36,6 @@ export GMAIL_NAME="Your Name"
 export GMAIL_FROM=from-email@you.com
 ```
 
-#### `.vim`
-
-For my `.vimrc` and `.vim` dotfiles see
-[github.com/jessfraz/.vim](https://github.com/jessfraz/.vim).
 
 ### Tests
 
