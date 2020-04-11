@@ -37,3 +37,4 @@ done
 
 # print a fortune when the terminal opens
 #fortune -a -s | lolcat
+export GPG_TTY=$(tty)
